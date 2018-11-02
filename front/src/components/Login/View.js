@@ -1,8 +1,8 @@
 import React from "react";
 import { Input, Card, Button, Image } from "semantic-ui-react";
 
-import "./index.css";
-import Icon from "./user.svg";
+import "./View.css";
+import Icon from "../../assets/login.svg";
 
 export default ({
   username,
