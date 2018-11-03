@@ -1,13 +1,10 @@
 import React from "react";
 
 import View from "./View";
+import Model from "./Model";
 
 export default class Presenter extends React.Component {
-  state = {
-    username: "",
-    password: "",
-    error: false
-  };
+  state = Model;
 
   render() {
     return (
